@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quality & Services - Maple Leaf Restaurant</title>
+</head>
+<body>
+    <header>
+        <h1>Maple Leaf Restaurant</h1><br>
+        <nav>
+            <ul>
+                <li><a href="page.html" target="_blank">Home</a></li>
+                <li><a href="menu.php" target="_blank">Menu</a></li>
+                <li><a href="contact.html" target="_blank">Contact</a></li>
+                <li><a href="quality.html" class="active">Quality & Services</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="quality-section">
+            <h2>Our Commitment to Quality</h2>
+            <p>At Maple Leaf Restaurant, we are dedicated to providing our guests with the finest dining experience. Every ingredient we use is carefully selected for its freshness and quality, ensuring every dish is a masterpiece.</p>
+            <div class="quality-highlights">
+                <div class="highlight">
+                    <h3>Fresh Ingredients</h3>
+                    <p>We source our ingredients daily from trusted local suppliers to guarantee exceptional taste and quality.</p>
+                </div>
+                <div class="highlight">
+                    <h3>Experienced Chefs</h3>
+                    <p>Our chefs are passionate about their craft and bring decades of culinary expertise to your plate.</p>
+                </div>
+                <div class="highlight">
+                    <h3>Hygienic Practices</h3>
+                    <p>Your health is our priority. Our kitchen follows strict hygiene protocols to ensure every meal is safe and delicious.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="services-section">
+            <h2>Our Services</h2>
+            <p>We offer a variety of services tailored to make your dining experience unforgettable.</p>
+            <div class="services-list">
+                <div class="service">
+                    <h3>Dine-In</h3>
+                    <p>Enjoy a cozy and elegant atmosphere with exceptional table service at our restaurant.</p>
+                </div>
+                <div class="service">
+                    <h3>Takeaway</h3>
+                    <p>Order your favorite dishes and enjoy them at home with our efficient takeaway service.</p>
+                </div>
+                <div class="service">
+                    <h3>Event Catering</h3>
+                    <p>Host your special events with us. We provide customized catering for all occasions.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Maple Leaf Restaurant. All Rights Reserved.</p>
+    </footer>
+</body>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* Fallback Color */
+    background-color: #ff9a9e;
+
+    /* Gradient for Modern Browsers */
+    background: radial-gradient(circle, #ff9a9e 0%, #fad0c4 50%, #fbc2eb 100%), 
+                linear-gradient(135deg, rgba(255, 175, 189, 0.8), rgba(100, 216, 210, 0.8));
+    background-blend-mode: overlay;
+
+    /* Ensures background compatibility across older Edge versions */
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #333;
+    min-height: 100vh;
+}
+header {
+    background-color: #5d3954;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+header h1 {
+    margin: 0;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #5d3954;
+    margin: 0;
+}
+nav ul li {
+    margin: 0;
+}
+nav ul li a {
+    color: #fef0f0;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+}
+nav ul li a:hover,
+nav ul li a.active {
+    background-color: #2c3e50;
+}
+main {
+    padding: 2rem;
+}
+.quality-section,
+.services-section {
+    background: #e4a3a3;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.60);
+    border-radius: 8px;
+}
+.quality-section h2,
+.services-section h2 {
+    text-align: center;
+    color: #2c3e50;
+}
+.quality-highlights,
+.services-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+.highlight,
+.service {
+    flex: 1;
+    max-width: 300px;
+    background-color: #f4d6d6;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.60);
+    text-align: center;
+}
+.highlight h3,
+.service h3 {
+    color: #34495e;
+    margin-bottom: 0.5rem;
+}
+footer {
+    background-color: #5d3954;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+</style>
+</html>

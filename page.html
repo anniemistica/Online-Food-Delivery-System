@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            color: #333;
+        }
+        header {
+            display: flex;  
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+           background: linear-gradient( #fb8b7c, #f1eca3);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.120);
+        }
+        .nav .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        .nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 600;
+        }
+        .nav ul li a:hover {
+            color: #4229d0;
+        }
+        .btn-order {
+            background: #e63946;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .hero {
+            text-align: center;
+            background: url('flower.jpeg') no-repeat center center / cover;
+            padding: 100px 20px;
+            color: black;
+        }
+        .hero h1 {
+            font-size: 48px;
+        }
+        .categories {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .category img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .burgers {
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .burger-list {
+            display: flex;
+            justify-content: space-around;
+        }
+        .burger-item img {
+            width: 150px;
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #f8f9fa;
+            color: #777;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <div class="logo">MAPLE LEAF</div>
+            <ul>
+                <li><a href="menu.php" target="_blank">Our Menu</a></li>
+                <li><a href="about.html" target="_blank">About Us</a></li>
+                <li><a href="quality.html" target="_blank">Quality & Services</a></li>
+                <li><a href="contact.html" target="_blank">Contact</a></li>
+                <li><a href="cart display.php" target="_blank">Cart</a></li>
+            </ul>
+           
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome</h1>
+        <p>We provide delicious and healthy foods! Have fun with us!!</p>
+    </section>
+
+    <section class="categories">
+        <div class="category">
+            <img src="burger.jpeg" alt="Burger">
+            <h2>Cheesy Pizza</h2>
+        </div>
+        <div class="category">
+            <img src="food.jpeg" alt="pizza">
+            <h2>Tandoori Chicken</h2>
+        </div>
+        <div class="category">
+            <img src="chick.jpeg" alt="Chili">
+            <h2>Chili Chicken</h2>
+        </div>
+    </section>
+
+    <section class="burgers">
+        <h2>Grab the offers!!</h2>
+        <div class="burger-list">
+            <div class="burger-item">
+                <img src="grill.jpeg" alt="fresh juice">
+                <h3>Chiken loaded Burger</h3>
+                <p>It,s non-veggyy..</p>
+                </div>
+            <div class="burger-item">
+                <img src="noodles.jpg" alt="Le Pigeon Burger">
+                <h3>Shawarma</h3>
+                <p>Varieties of Shawarma</p>
+            </div>
+            <div class="burger-item">
+                <img src="pasta.jpeg" alt="Double Animal Style">
+                <h3>Soups</h3>
+                <p>Veggy and Non veggy soups</p>
+                </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Maple Leaf. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Footer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    footer {
+      background: #000;
+      color: #fff;
+      padding: 20px;
+      text-align: left;
+    }
+    .footer-container {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .column {
+      flex: 1;
+      margin: 10px;
+      min-width: 150px;
+    }
+    .column h4 {
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+    .column ul {
+      list-style: none;
+      padding: 0;
+    }
+    .column ul li {
+      margin: 5px 0;
+    }
+    .column ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    .column ul li a:hover {
+      text-decoration: underline;
+    }
+    .bottom-section {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .app-links img {
+      height: 30px;
+      margin: 0 10px;
+    }
+    .chat-icon {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #f00;
+      color: #fff;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 24px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <footer>
+    <div class="footer-container">
+      <div class="column">
+        <h4>Order Now</h4>
+        <ul>
+          <li><a href="about.html" target="_blank">About Us</a></li>
+          <li><a href="#">Offers</a></li>
+          <li><a href="#">Drinks</a></li>
+          
+        </ul>
+      </div>
+      <div class="column">
+        <h4>About</h4>
+        <ul>
+          <li><a href="about.html">Shedule for Service</a></li>
+          <li><a href="about.html">Address</a></li>
+          <li><a href="about.html">Hygine</a></li>
+          
+        </ul>
+      </div>
+      <div class="column">
+        <h4>Our Policies</h4>
+        <ul>
+          <li><a href="quality.html">Privacy</a></li>
+          <li><a href="quality.html">Terms & Conditions</a></li>
+          <li><a href="quality.html">FAQs & Help</a></li>
+        </ul>
+      </div>
+      <div class="column">
+        <h4>Maple Leaf Welcome all !!</h4>
+        <ul>
+          <li><a href="contact.html">Locate a Store</a></li>
+          
+        </ul>
+      </div>
+    </div>
+    <div class="bottom-section">
+      <p>Rain or Shine , it,s a fine time to dine..</p>
+    </div>
+  </footer>
+  <div class="chat-icon">💬</div>
+</body>
+</html>

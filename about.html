@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+    <body>
+                <header class="hero-section">
+            <h1>Welcome to Maple Leaf</h1>
+            <p>Your destination for fresh and delicious food.</p>
+            <a href="menu.php" target="_blank" class="btn">Explore Our Menu</a><br><br>
+            <a href="cart display.php" target="_blank" class="btn">Visit your Cart</a>
+            <a href="page.html" target="_blank"class="btn">Home Page</a><br><br>
+            <a href="cart.php" target="_blank"class="btn">Add items for your orders</a>
+            </header>
+    </body>
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>
+                At Maple Leaf, We pride ourselves on offering the finest dishes made 
+                from fresh, locally-sourced ingredients. Our team of chefs brings passion 
+                and creativity to every plate, ensuring a memorable dining experience.
+            </p>
+             <p>
+                 Food Enthusiasts looking for a memorable dining experience.
+             </p>
+             <p>
+                 Maple Leaf reflects brand's essence.Introduce the brand and its values to potential customers.
+                 Showcase the delicious offerings with detailed descriptions and visuals.
+              </p>
+              
+        </div>
+    </section>
+
+     <footer class="footer-section">
+        <div class="container">
+            <p>&copy; 2024 Maple Leaf. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            line-height: 1.6;
+            background: linear-gradient( #020024, #141490, #5e31bd);
+            color: white;
+        }
+
+        /* Hero Section */
+        .hero-section {
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero-section h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            text-shadow: 0 0 10px #00ff99, 0 0 20px #00ff99, 0 0 30px #00ff99;
+            animation: glowText 2s infinite alternate;
+        }
+
+        .hero-section p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            text-shadow: 0 0 10px #ff6f61, 0 0 20px #ff6f61, 0 0 30px #ff6f61;
+            animation: glowText 2s infinite alternate;
+        }
+
+        .hero-section .btn {
+            background: #ff6f61;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            box-shadow: 0 0 10px #ff6f61, 0 0 20px #ff6f61, 0 0 30px #ff6f61;
+            transition: all 0.3s ease;
+            animation: glowButton 2s infinite alternate;
+        }
+
+        .hero-section .btn:hover {
+            transform: scale(1.1);
+            background: #ff5a4f;
+        }
+        .about-section {
+    background: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color:black;
+}
+
+.about-section p {
+    font-size: 1.2rem;
+    color: #555;
+}
+/* Footer Section */
+.footer-section {
+    background: #4a646c;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9rem;
+}
+
+
+        /* Animations */
+        @keyframes glowText {
+            0% {
+                text-shadow: 0 0 10px #ff005a, 0 0 20px #ff005a, 0 0 30px #ff005a;
+            }
+            100% {
+                text-shadow: 0 0 15px #ff4081, 0 0 25px #ff4081, 0 0 35px #ff4081;
+            }
+        }
+
+        @keyframes glowButton {
+            0% {
+                box-shadow: 0 0 10px #ff6f61, 0 0 20px #ff6f61, 0 0 30px #ff6f61;
+            }
+            100% {
+                box-shadow: 0 0 15px #ff8575, 0 0 25px #ff8575, 0 0 35px #ff8575;
+            }
+        }
+    </style>
+</head>
+
+</html>

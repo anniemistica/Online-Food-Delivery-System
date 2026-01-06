@@ -1,0 +1,147 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Container */
+.upi-container {
+    width: 80%;
+    margin: 50px auto;
+    background: rgba(30, 30, 30, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 136, 0, 0.5);
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+/* Header Styling */
+h2 {
+    font-size: 26px;
+    color: #ff8800;
+    text-shadow: 2px 2px 10px rgba(255, 136, 0, 0.8);
+    margin-bottom: 20px;
+}
+
+/* User Details Section */
+.user-details {
+    text-align: left;
+    background: rgba(50, 50, 50, 0.8);
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.user-details p {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #ddd;
+}
+
+/* Cart Items Section */
+.cart-section {
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    background: rgba(50, 50, 50, 0.8);
+    margin-bottom: 20px;
+}
+
+/* Horizontal Cart Items */
+.cart-items {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 15px;
+    padding: 10px;
+    scrollbar-width: none; /* Hide scrollbar for modern browsers */
+}
+
+.cart-item {
+    background: rgba(20, 20, 20, 0.9);
+    border-radius: 8px;
+    padding: 15px;
+    min-width: 200px;
+    text-align: center;
+    border: 2px solid #ff8800;
+    box-shadow: 0 0 10px rgba(255, 136, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+}
+
+.cart-item:hover {
+    transform: scale(1.05);
+}
+
+.cart-item p {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #ddd;
+}
+
+.cart-item .price {
+    font-weight: bold;
+    color: #00ff00;
+}
+
+/* Total Amount */
+.total-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #00ff00;
+    text-shadow: 1px 1px 5px rgba(0, 255, 0, 0.7);
+    margin-top: 15px;
+}
+
+/* UPI Payment Section */
+.payment-section {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid #ff8800;
+    border-radius: 5px;
+    outline: none;
+    background: #222;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+input[type="text"]:focus {
+    border-color: #00ff00;
+}
+
+/* Button Styling */
+button {
+    background: #ff8800;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    background: #00ff00;
+    color: #000;
+    box-shadow: 0 0 10px #00ff00;
+}
+
+/* Fade-In Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
